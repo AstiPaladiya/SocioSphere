@@ -1,10 +1,6 @@
-import React from "react";
+// MainPage/AuthContext.js
+import { createContext } from "react";
 
-export default function AuthContext()
-{
-    return(
-        <>
-            
-        </>
-    )
-}
+const AuthContext = createContext(null);
+
+export default AuthContext;

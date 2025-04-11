@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState,useEffect } from "react";
 import axios from "axios";
 import {
     Typography, Grid, Button, Card, CardContent,
@@ -6,9 +6,8 @@ import {
     TableHead, TablePagination, TableRow, Paper
 } from "@mui/material";
 import { Container } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
 import { Toast, ToastContainer } from "react-bootstrap";
-
+import { useNavigate } from "react-router-dom";
 
 const columns = [
     { id: 'no', label: 'No', minWidth: 50 },
@@ -16,64 +15,46 @@ const columns = [
     { id: 'email', label: 'Email', minWidth: 170 },
     { id: 'phoneNo', label: 'Phone', minWidth: 130 },
     { id: 'gender', label: 'Gender', minWidth: 100 },
-    { id: 'squarfootSize', label: 'SquareFoot Size', minWidth: 100 },
-    { id: 'livingDate', label: 'Living Since', minWidth: 150 },
+    { id: 'shiftStartTime', label: 'Shift Start', minWidth: 100 },
+    { id: 'shiftEndTime', label: 'Shift End', minWidth: 100 },
+    { id: 'joiningDate', label: 'Joining Date', minWidth: 150 },
+    { id: 'salary', label: 'Salary', minWidth: 100 },
     { id: 'status', label: 'Status', minWidth: 100 },
-    // { id: 'View', label: 'View More', minWidth: 100 },
 ];
 
-export default function Member() {
+export default function Watchmenrecord()
+{
     const [rows, setRows] = useState([]);
+
     const [page, setPage] = useState(0);
     const [rowsPerPage, setRowsPerPage] = useState(10);
     const [showToast, setShowToast] = useState(false);
     const [toastMessage, setToastMessage] = useState("");
-    const [toastVariant, setToastVariant] = useState("success"); // success or danger
-
-    const navigate = useNavigate();
-
+    const [toastVariant, setToastVariant] = useState("success");
+const navigate=useNavigate();
     useEffect(() => {
-        fetchMembers();
+        fetchWatchmen();
     }, []);
 
-    const fetchMembers = async () => {
+    const fetchWatchmen = async () => {
         try {
-            const res = await axios.get("http://192.168.229.34:5175/api/Member/GetAllMembers");
-            const formatted = res.data.map((m) => ({
-                ...m,
-                fullName: `${m.firstName} ${m.middleName} ${m.lastName}`,
+            const res = await axios.get("http://192.168.229.34:5175/api/Watchmen/GetAllWatchmen");
+            const formatted = res.data.map((w) => ({
+                ...w,
+                fullName: `${w.firstName} ${w.middleName} ${w.lastName}`,
             }));
             setRows(formatted);
         } catch (err) {
-            console.error("Error fetching members", err);
+            console.error("Error fetching watchmen", err);
         }
     };
-
-    // const toggleStatus = async (memberId) => {
-    //     try {
-    //         await axios.put(`http://192.168.229.34:5175/api/Member/toggleStatus/${memberId}`);
-    //         fetchMembers(); // Refresh data
-    //     } catch (err) {
-    //         console.error("Error toggling status", err);
-    //     }
-    // };
-
-    const handleChangePage = (event, newPage) => {
-        setPage(newPage);
-    };
-
-    const handleChangeRowsPerPage = (event) => {
-        setRowsPerPage(+event.target.value);
-        setPage(0);
-    };
-
-    const handleAddMember = () => {
-       navigate("AddMember");
-    };
-    const toggleStatus = async (memberId) => {
+const handleAddWatchmen=()=>{
+    navigate("AddWatchmen");
+}
+    const toggleStatus = async (watchmanId) => {
         try {
-            const res = await axios.put(`http://192.168.229.34:5175/api/Member/toggleStatus/${memberId}`, {});
-            fetchMembers(); // Refresh data
+            await axios.put(`http://192.168.229.34:5175/api/Watchmen/toggleStatus/${watchmanId}`, {});
+            fetchWatchmen(); // Refresh
             setToastMessage("Status updated successfully");
             setToastVariant("success");
             setShowToast(true);
@@ -85,25 +66,34 @@ export default function Member() {
         }
     };
 
+    const handleChangePage = (event, newPage) => {
+        setPage(newPage);
+    };
+
+    const handleChangeRowsPerPage = (event) => {
+        setRowsPerPage(+event.target.value);
+        setPage(0);
+    };
+
     return (
         <Container sx={{ overflowX: 'auto' }}>
-            <Grid container spacing={2} alignItems="center" justifyContent="space-between">
-                <Grid item>
-                    <Typography sx={{ color: "grey", fontSize: '30px', fontWeight: 'bold' }}>
-                        Member
-                    </Typography>
-                </Grid>
-                <Grid item>
-                    <Button variant="contained" color="primary" onClick={handleAddMember}>
-                        + Add Member
-                    </Button>
-                </Grid>
-            </Grid>
-            <br />
+           <Grid container spacing={2} alignItems="center" justifyContent="space-between">
+                           <Grid item>
+                               <Typography sx={{ color: "grey", fontSize: '30px', fontWeight: 'bold' }}>
+                                   Member
+                               </Typography>
+                           </Grid>
+                           <Grid item>
+                               <Button variant="contained" color="primary" onClick={handleAddWatchmen}>
+                                   + Add Watchmen
+                               </Button>
+                           </Grid>
+                       </Grid>
+                       <br />
             <Card>
                 <CardContent>
                     <TableContainer sx={{ maxHeight: 440 }}>
-                    <Table stickyHeader aria-label="sticky table" sx={{ width: '100%', tableLayout: 'auto' }}>
+                        <Table stickyHeader aria-label="sticky table" sx={{ width: '100%', tableLayout: 'auto' }}>
                             <TableHead>
                                 <TableRow>
                                     {columns.map((column) => (
@@ -136,27 +126,20 @@ export default function Member() {
                                                 <TableCell align="center">{row.email}</TableCell>
                                                 <TableCell align="center">{row.phoneNo}</TableCell>
                                                 <TableCell align="center">{row.gender}</TableCell>
-                                                <TableCell align="center">{row.squarfootSize}</TableCell>
-                                                <TableCell align="center">{row.livingDate}</TableCell>
-
+                                                <TableCell align="center">{row.shiftStartTime}</TableCell>
+                                                <TableCell align="center">{row.shiftEndTime}</TableCell>
+                                                <TableCell align="center">{row.joiningDate}</TableCell>
+                                                <TableCell align="center">{row.salary}</TableCell>
                                                 <TableCell align="center">
-                                                    <Button
-                                                        variant="contained"
-                                                        color={row.status === "Block" ? "success" : "error"}
-                                                        onClick={() => toggleStatus(row.id)}
-                                                    >
-                                                        {row.status === "Active" ? "Block" : "Active"}
-                                                    </Button>
+                                                <Button
+  variant="contained"
+  color={row.status === "Active" ? "error" : "success"}
+  onClick={() => toggleStatus(row.id)}
+>
+  {row.status === "Active" ? "Block" : "Active"}
+</Button>
+
                                                 </TableCell>
-                                                {/* <TableCell align="center">
-                                                    <Button
-                                                        variant="outlined"
-                                                        color="primary"
-                                                        onClick={() => navigate(`Admin/Member/ViewMember/${row.id}`)}
-                                                    >
-                                                        👁️ View
-                                                    </Button>
-                                                </TableCell> */}
                                             </TableRow>
                                         ))
                                 )}
@@ -193,12 +176,11 @@ export default function Member() {
                     autohide
                 >
                     <Toast.Header>
-                        <strong className="me-auto">Member Status</strong>
+                        <strong className="me-auto">Watchman Status</strong>
                     </Toast.Header>
                     <Toast.Body className="text-white">{toastMessage}</Toast.Body>
                 </Toast>
             </ToastContainer>
-
         </Container>
     );
 }

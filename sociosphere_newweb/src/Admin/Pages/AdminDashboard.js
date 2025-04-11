@@ -6,6 +6,7 @@ export default function AdminDashboard()
     return(
         <>
         <Typography sx={{color:"grey",fontSize:'30px',fontWeight:'bold'}}>Dashboard</Typography>
+        
         </>
     )
 }
