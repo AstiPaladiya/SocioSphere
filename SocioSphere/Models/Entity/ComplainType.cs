@@ -15,5 +15,5 @@ public partial class ComplainType
 
     public DateTime? UpdatedAt { get; set; }
 
-    public virtual ICollection<ComplainSuggestionMaster> ComplainSuggestionMasters { get; set; } = new List<ComplainSuggestionMaster>();
+    public virtual ICollection<ComplainMaster> ComplainMasters { get; set; } = new List<ComplainMaster>();
 }

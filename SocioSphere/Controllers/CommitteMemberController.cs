@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Storage.Json;
 using SocioSphere.Models.Entity;
@@ -10,6 +11,7 @@ namespace SocioSphere.Controllers
     //localhost:5847/api/CommitteMember
     [Route("api/[controller]")]
     [ApiController]
+
     public class CommitteMemberController : ControllerBase
     {
         private readonly SociosphereContext dbContext;
@@ -78,7 +80,7 @@ namespace SocioSphere.Controllers
         //    try
         //    {
         //        var committeType = dbContext.UserMasters
-        //                         .Where(c => c.Status == "Active",c=>)
+        //                         .Where(c => cs.Status == "Active",c=>)
         //                         .Select(c => new { c.Id, c.CommitteName })
         //                         .ToList();
         //        return Ok(committeType);

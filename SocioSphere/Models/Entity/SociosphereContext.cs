@@ -28,7 +28,7 @@ public partial class SociosphereContext : DbContext
 
     public virtual DbSet<CommitteMemberRecord> CommitteMemberRecords { get; set; }
 
-    public virtual DbSet<ComplainSuggestionMaster> ComplainSuggestionMasters { get; set; }
+    public virtual DbSet<ComplainMaster> ComplainMasters { get; set; }
 
     public virtual DbSet<ComplainType> ComplainTypes { get; set; }
 
@@ -53,6 +53,10 @@ public partial class SociosphereContext : DbContext
     public virtual DbSet<SocietyCommitteMaster> SocietyCommitteMasters { get; set; }
 
     public virtual DbSet<SocietyMeeting> SocietyMeetings { get; set; }
+
+    public virtual DbSet<SuggestionMaster> SuggestionMasters { get; set; }
+
+    public virtual DbSet<SuggestionVote> SuggestionVotes { get; set; }
 
     public virtual DbSet<UserMaster> UserMasters { get; set; }
 
@@ -185,9 +189,11 @@ public partial class SociosphereContext : DbContext
                 .HasConstraintName("FK_committe_member_record_user_master");
         });
 
-        modelBuilder.Entity<ComplainSuggestionMaster>(entity =>
+        modelBuilder.Entity<ComplainMaster>(entity =>
         {
-            entity.ToTable("complain_suggestion_master");
+            entity.HasKey(e => e.Id).HasName("PK_complain_suggestion_master");
+
+            entity.ToTable("complain_master");
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.ActionTakenDueDate).HasColumnName("action_taken_due_date");
@@ -195,10 +201,6 @@ public partial class SociosphereContext : DbContext
                 .HasMaxLength(400)
                 .IsUnicode(false)
                 .HasColumnName("admin_action_taken_note");
-            entity.Property(e => e.Category)
-                .HasMaxLength(150)
-                .IsUnicode(false)
-                .HasColumnName("category");
             entity.Property(e => e.ComplainTitle)
                 .HasMaxLength(300)
                 .IsUnicode(false)
@@ -226,13 +228,12 @@ public partial class SociosphereContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
             entity.Property(e => e.UserId).HasColumnName("user_id");
-            entity.Property(e => e.VotesCount).HasColumnName("votes_count");
 
-            entity.HasOne(d => d.ComplainType).WithMany(p => p.ComplainSuggestionMasters)
+            entity.HasOne(d => d.ComplainType).WithMany(p => p.ComplainMasters)
                 .HasForeignKey(d => d.ComplainTypeId)
                 .HasConstraintName("FK_complain_suggestion_master_complain_type");
 
-            entity.HasOne(d => d.User).WithMany(p => p.ComplainSuggestionMasters)
+            entity.HasOne(d => d.User).WithMany(p => p.ComplainMasters)
                 .HasForeignKey(d => d.UserId)
                 .HasConstraintName("FK_complain_suggestion_master_user_master");
         });
@@ -559,7 +560,55 @@ public partial class SociosphereContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
         });
+        modelBuilder.Entity<SuggestionMaster>(entity =>
+        {
+            entity.ToTable("suggestion_master");
 
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.CreatedAt)
+                .HasColumnType("datetime")
+                .HasColumnName("created_at");
+            entity.Property(e => e.Description)
+                .HasColumnType("text")
+                .HasColumnName("description");
+            entity.Property(e => e.Photo)
+                .HasMaxLength(200)
+                .IsUnicode(false)
+                .HasColumnName("photo");
+            entity.Property(e => e.SuggestionTitle)
+                .HasMaxLength(300)
+                .IsUnicode(false)
+                .HasColumnName("suggestion_title");
+            entity.Property(e => e.UpdatedAt)
+                .HasColumnType("datetime")
+                .HasColumnName("updated_at");
+            entity.Property(e => e.Userid).HasColumnName("userid");
+
+            entity.HasOne(d => d.User).WithMany(p => p.SuggestionMasters)
+                .HasForeignKey(d => d.Userid)
+                .HasConstraintName("FK_suggestion_master_user_master");
+        });
+
+        modelBuilder.Entity<SuggestionVote>(entity =>
+        {
+            entity.ToTable("suggestion_vote");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Isliked).HasColumnName("isliked");
+            entity.Property(e => e.SuggestionId).HasColumnName("suggestion_id");
+            entity.Property(e => e.UpdatedAt)
+                .HasColumnType("datetime")
+                .HasColumnName("updated_at");
+            entity.Property(e => e.UserId).HasColumnName("user_id");
+
+            entity.HasOne(d => d.Suggestion).WithMany(p => p.SuggestionVotes)
+                .HasForeignKey(d => d.SuggestionId)
+                .HasConstraintName("FK_suggestion_vote_suggestion_master");
+
+            entity.HasOne(d => d.User).WithMany(p => p.SuggestionVotes)
+                .HasForeignKey(d => d.UserId)
+                .HasConstraintName("FK_suggestion_vote_user_master");
+        });
         modelBuilder.Entity<UserMaster>(entity =>
         {
             entity.ToTable("user_master");

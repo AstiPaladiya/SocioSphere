@@ -3,6 +3,7 @@ using SocioSphere.Models.Entity;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using SocioSphere.Models.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +25,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
         };
     });
-
+builder.Services.AddScoped<IEmailService,EmailServices>();
+builder.Services.AddScoped<IFileService,UploadFileService>();
 //for react app connect
 builder.Services.AddCors(options =>
 {

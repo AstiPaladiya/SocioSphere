@@ -47,10 +47,10 @@ namespace SocioSphere.Controllers
             // Redirect URL based on role
             string redirectUrl = userRole switch
             {
-                "Admin" => "/admin/dashboard",
-                "Member" => "/member/dashboard",
-                "Watchmen" => "/watchmen/dashboard",
-                _ => "/login"
+                "Admin" => "/Admin/",
+                "Member" => "/Member/",
+                "Watchmen" => "/Watchmen/",
+                _ => "/Login"
             };
             return Ok(new {message="Login Successfuly",token=token,role=userRole,redirectUrl=redirectUrl});
         }
@@ -62,7 +62,7 @@ namespace SocioSphere.Controllers
         //        1 => "Admin",
         //        2 => "Member",
         //        3 => "Watchmen",
-        //        _ => "Unknown"
+                                                                                                                                                                                                 //        _ => "Unknown"
         //    };
         //}
 

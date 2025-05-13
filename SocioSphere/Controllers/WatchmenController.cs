@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Internal;
 using SocioSphere.Models.Entity;
+using SocioSphere.Models.Services;
 using SocioSphere.Models.UserDataModels.AddUserData;
 
 namespace SocioSphere.Controllers
@@ -13,13 +14,15 @@ namespace SocioSphere.Controllers
     public class WatchmenController : ControllerBase
     {
         private readonly SociosphereContext dbContext;
-        public WatchmenController(SociosphereContext dbContext)
+        private readonly IEmailService _emailService;
+        public WatchmenController(SociosphereContext dbContext, IEmailService emailService)
         {
             this.dbContext = dbContext;
+            this._emailService = emailService;
         }
         [HttpPost]
         [Route("watchmenRegister")]
-        public IActionResult watchmenRegistration(AddWatchmenData watchmenData)
+        public async Task<IActionResult> watchmenRegistration(AddWatchmenData watchmenData)
         {
             try
             {
@@ -46,6 +49,14 @@ namespace SocioSphere.Controllers
                     UpdatedAt = null
                 };
                 dbContext.Add(newUserEntity);
+                String toEmail = watchmenData.Email;
+                String subject = "Registration Successful";
+                String message = "<h2>Welcome to SocioSphere, " + watchmenData.FirstName + " " + watchmenData.LastName + "</h2>" +
+                    "<br/><p>Your account has been successfully created in our system.You can login using below Credentials</p><br/>" +
+                    "<p><b>Login Credentials</b></p>" +
+                    "<table><tr><td>Email:</td><td>" + watchmenData.Email + "</td></tr>" +
+                    "<tr><td>Password:</td><td>" + generatePassword + "</td></tr></table>";
+                await _emailService.sendMailAsync(toEmail, subject, message);
                 dbContext.SaveChanges();
                 int userId = newUserEntity.Id;
                 var userpersonaldetail = new UserPersonalDetail()
@@ -65,6 +76,43 @@ namespace SocioSphere.Controllers
                 return StatusCode(500, new { message = "Something went wrong.Please try again!" });
             }
         }
+        [HttpGet]
+        [Route("GetAllWatchmen")]
+        public IActionResult GetAllWatchmen()
+        {
+            try
+            {
+                var watchmenDetails = (from user in dbContext.UserMasters
+                                       join personal in dbContext.UserPersonalDetails
+                                       on user.Id equals personal.UserId
+                                       where user.GroupId == 3
+                                       select new
+                                       {
+                                           user.Id,
+                                           user.FirstName,
+                                           user.MiddleName,
+                                           user.LastName,
+                                           user.Email,
+                                           user.PhoneNo,
+                                           user.Gender,
+                                           user.Status,
+                                           user.CreatedAt,
+                                           user.UpdatedAt,
+                                           personal.ShiftStartTime,
+                                           personal.ShiftEndTime,
+                                           personal.JoiningDate,
+                                           personal.Salary
+                                       }).ToList();
+
+                return Ok(watchmenDetails);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                return StatusCode(500, new { message = "Something went wrong. Please try again!" });
+            }
+        }
+
         [HttpGet]
         [Route("toggleStatus/{id:int}")]
         public IActionResult toggleWatchmenStatus(int id)

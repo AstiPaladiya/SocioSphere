@@ -38,7 +38,7 @@ namespace SocioSphere.Controllers
             }
         }
         //get data by id
-        [HttpPut]
+        [HttpGet]
         [Route("{id:int}")]
         public IActionResult getCommitteById(int id)
         {
@@ -49,7 +49,7 @@ namespace SocioSphere.Controllers
                 {
                     return NotFound(new { message = "Society committe record not found." });
                 }
-                return Ok(committe);
+                return Ok(committe);    
             }
             catch (Exception ex)
             {
@@ -89,7 +89,7 @@ namespace SocioSphere.Controllers
         }
         //Update data
         [HttpPut]
-        [Route("{id:int}")]
+        [Route("updateSocietyCommitte/{id:int}")]
         public IActionResult updateCommitte(int id,UpdateCommitteData updateCommitteData)
         {
             try

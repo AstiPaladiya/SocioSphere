@@ -5,7 +5,6 @@ namespace SocioSphere.Models.UserDataModels.UpdateUserData
     public class UpdateCommitteMemberData
     {
 
-        public int Id { get; set; }
         public int? CommittieTypeId { get; set; }
 
         public int? UserId { get; set; }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\palad\\Documents\\GitHub\\SocioSphere\\SocioSphere\\SocioSphere.csproj": {}
+    "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\SocioSphere.csproj": {}
   },
   "projects": {
-    "C:\\Users\\palad\\Documents\\GitHub\\SocioSphere\\SocioSphere\\SocioSphere.csproj": {
+    "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\SocioSphere.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\palad\\Documents\\GitHub\\SocioSphere\\SocioSphere\\SocioSphere.csproj",
+        "projectUniqueName": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\SocioSphere.csproj",
         "projectName": "SocioSphere",
-        "projectPath": "C:\\Users\\palad\\Documents\\GitHub\\SocioSphere\\SocioSphere\\SocioSphere.csproj",
+        "projectPath": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\SocioSphere.csproj",
         "packagesPath": "C:\\Users\\palad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\palad\\Documents\\GitHub\\SocioSphere\\SocioSphere\\obj\\",
+        "outputPath": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -56,7 +56,7 @@
             },
             "MailKit": {
               "target": "Package",
-              "version": "[4.11.0, )"
+              "version": "[3.5.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -93,6 +93,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

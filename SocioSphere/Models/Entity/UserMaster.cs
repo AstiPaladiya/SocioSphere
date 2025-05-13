@@ -49,13 +49,17 @@ public partial class UserMaster
 
     public virtual ICollection<CommitteMemberRecord> CommitteMemberRecords { get; set; } = new List<CommitteMemberRecord>();
 
-    public virtual ICollection<ComplainSuggestionMaster> ComplainSuggestionMasters { get; set; } = new List<ComplainSuggestionMaster>();
+    public virtual ICollection<ComplainMaster> ComplainMasters { get; set; } = new List<ComplainMaster>();
 
     public virtual GroupMaster? Group { get; set; }
 
     public virtual ICollection<MaintenanceRecord> MaintenanceRecords { get; set; } = new List<MaintenanceRecord>();
 
     public virtual ICollection<PaidEventRecord> PaidEventRecords { get; set; } = new List<PaidEventRecord>();
+
+    public virtual ICollection<SuggestionMaster> SuggestionMasters { get; set; } = new List<SuggestionMaster>();
+
+    public virtual ICollection<SuggestionVote> SuggestionVotes { get; set; } = new List<SuggestionVote>();
 
     public virtual ICollection<UserPersonalDetail> UserPersonalDetails { get; set; } = new List<UserPersonalDetail>();
 

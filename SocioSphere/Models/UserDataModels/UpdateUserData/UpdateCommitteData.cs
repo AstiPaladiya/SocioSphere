@@ -7,6 +7,7 @@
         public string? CommitteName { get; set; }
 
         public string? Description { get; set; }
+
         public DateTime? UpdatedAt { get; set; }
 
     }
