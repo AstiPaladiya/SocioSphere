@@ -8215,11 +8215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\SocioSphere.csproj",
+      "projectUniqueName": "C:\\Users\\palad\\Documents\\GitHub\\SocioSphere\\SocioSphere\\SocioSphere.csproj",
       "projectName": "SocioSphere",
-      "projectPath": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\SocioSphere.csproj",
+      "projectPath": "C:\\Users\\palad\\Documents\\GitHub\\SocioSphere\\SocioSphere\\SocioSphere.csproj",
       "packagesPath": "C:\\Users\\palad\\.nuget\\packages\\",
-      "outputPath": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\obj\\",
+      "outputPath": "C:\\Users\\palad\\Documents\\GitHub\\SocioSphere\\SocioSphere\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

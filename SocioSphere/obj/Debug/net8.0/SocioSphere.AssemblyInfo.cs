@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SocioSphere")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d9600bb8c34717d14a84f48f02540f84a6a3f25")]
 [assembly: System.Reflection.AssemblyProductAttribute("SocioSphere")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SocioSphere")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
