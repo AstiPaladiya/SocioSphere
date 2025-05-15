@@ -18,6 +18,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadimage\0b3b1560-5bb8-4d01-af20-e0ff90528fe2_photo-1575936123452-b67c3203c357.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadimage\0e79c3cc-e307-4e0a-9f7b-45f3f9b5c81d_images.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SocioSphere</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SocioSphere</BasePath>
+      <RelativePath>uploadimage/0e79c3cc-e307-4e0a-9f7b-45f3f9b5c81d_images.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bg4m1xegju</Fingerprint>
+      <Integrity>9Zr1zF5dWnerk0DygkiLrCE568cl/elZNk6HaMelzJg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadimage\0e79c3cc-e307-4e0a-9f7b-45f3f9b5c81d_images.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadimage\19a933f3-86a3-4906-8eeb-f1b35ac91926_paper.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>SocioSphere</SourceId>
@@ -305,6 +323,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadimage\e6c88e81-1200-4541-942d-4f38ab013cba_MainBefore.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadimage\e9fc6260-a239-412f-8ab4-650bad41334e_paper.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SocioSphere</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SocioSphere</BasePath>
+      <RelativePath>uploadimage/e9fc6260-a239-412f-8ab4-650bad41334e_paper.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3imns6ap5n</Fingerprint>
+      <Integrity>qyWKqb39zIhEdZF/PWUlq4WTvNR+ddCBM97l+5+dHug=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadimage\e9fc6260-a239-412f-8ab4-650bad41334e_paper.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploadimage\ebe33bc4-67f9-439f-9bd5-d09395b75672_photo-1575936123452-b67c3203c357.jpeg'))">
       <SourceType>Package</SourceType>

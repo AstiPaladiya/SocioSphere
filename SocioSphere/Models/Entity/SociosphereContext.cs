@@ -314,6 +314,10 @@ public partial class SociosphereContext : DbContext
                 .HasMaxLength(200)
                 .IsUnicode(false)
                 .HasColumnName("price_type");
+            entity.Property(e => e.Reason)
+           .HasMaxLength(200)
+           .IsUnicode(false)
+           .HasColumnName("reason");
             entity.Property(e => e.Status)
                 .HasMaxLength(200)
                 .IsUnicode(false)
@@ -592,8 +596,10 @@ public partial class SociosphereContext : DbContext
         modelBuilder.Entity<SuggestionVote>(entity =>
         {
             entity.ToTable("suggestion_vote");
-
             entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.CreatedAt)
+              .HasColumnType("datetime")
+              .HasColumnName("created_at");
             entity.Property(e => e.Isliked).HasColumnName("isliked");
             entity.Property(e => e.SuggestionId).HasColumnName("suggestion_id");
             entity.Property(e => e.UpdatedAt)

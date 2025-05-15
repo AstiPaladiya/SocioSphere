@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "l/X52wpAUQp8grAJU5GeHOYmA37uUn4a5DL9LJ6qTH4=",
+  "Hash": "Fi/4OjH3U5kws3A9DTVRg284rbYfhCuQs7Z26z4nrJA=",
   "Source": "SocioSphere",
   "BasePath": "_content/SocioSphere",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploadimage\\0b3b1560-5bb8-4d01-af20-e0ff90528fe2_photo-1575936123452-b67c3203c357.jpeg"
+    },
+    {
+      "Identity": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\wwwroot\\uploadimage\\0e79c3cc-e307-4e0a-9f7b-45f3f9b5c81d_images.png",
+      "SourceId": "SocioSphere",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\wwwroot\\",
+      "BasePath": "_content/SocioSphere",
+      "RelativePath": "uploadimage/0e79c3cc-e307-4e0a-9f7b-45f3f9b5c81d_images#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bg4m1xegju",
+      "Integrity": "9Zr1zF5dWnerk0DygkiLrCE568cl/elZNk6HaMelzJg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploadimage\\0e79c3cc-e307-4e0a-9f7b-45f3f9b5c81d_images.png"
     },
     {
       "Identity": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\wwwroot\\uploadimage\\19a933f3-86a3-4906-8eeb-f1b35ac91926_paper.jpg",
@@ -374,6 +395,27 @@
       "OriginalItemSpec": "wwwroot\\uploadimage\\e6c88e81-1200-4541-942d-4f38ab013cba_MainBefore.jpg"
     },
     {
+      "Identity": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\wwwroot\\uploadimage\\e9fc6260-a239-412f-8ab4-650bad41334e_paper.jpg",
+      "SourceId": "SocioSphere",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\wwwroot\\",
+      "BasePath": "_content/SocioSphere",
+      "RelativePath": "uploadimage/e9fc6260-a239-412f-8ab4-650bad41334e_paper#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3imns6ap5n",
+      "Integrity": "qyWKqb39zIhEdZF/PWUlq4WTvNR+ddCBM97l+5+dHug=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploadimage\\e9fc6260-a239-412f-8ab4-650bad41334e_paper.jpg"
+    },
+    {
       "Identity": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\wwwroot\\uploadimage\\ebe33bc4-67f9-439f-9bd5-d09395b75672_photo-1575936123452-b67c3203c357.jpeg",
       "SourceId": "SocioSphere",
       "SourceType": "Discovered",
@@ -496,6 +538,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+AdCMORIY/rod6JD8npWkAVGR1zVK4Egq4dzdUMPGk8="
+        }
+      ]
+    },
+    {
+      "Route": "uploadimage/0e79c3cc-e307-4e0a-9f7b-45f3f9b5c81d_images.bg4m1xegju.png",
+      "AssetFile": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\wwwroot\\uploadimage\\0e79c3cc-e307-4e0a-9f7b-45f3f9b5c81d_images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Zr1zF5dWnerk0DygkiLrCE568cl/elZNk6HaMelzJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 14:32:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bg4m1xegju"
+        },
+        {
+          "Name": "label",
+          "Value": "uploadimage/0e79c3cc-e307-4e0a-9f7b-45f3f9b5c81d_images.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Zr1zF5dWnerk0DygkiLrCE568cl/elZNk6HaMelzJg="
+        }
+      ]
+    },
+    {
+      "Route": "uploadimage/0e79c3cc-e307-4e0a-9f7b-45f3f9b5c81d_images.png",
+      "AssetFile": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\wwwroot\\uploadimage\\0e79c3cc-e307-4e0a-9f7b-45f3f9b5c81d_images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Zr1zF5dWnerk0DygkiLrCE568cl/elZNk6HaMelzJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 14:32:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Zr1zF5dWnerk0DygkiLrCE568cl/elZNk6HaMelzJg="
         }
       ]
     },
@@ -1808,6 +1932,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-xiYQVHK1Zw9KQOEYogxVVOOz9Ox6OVCuxIOrQtLHbh4="
+        }
+      ]
+    },
+    {
+      "Route": "uploadimage/e9fc6260-a239-412f-8ab4-650bad41334e_paper.3imns6ap5n.jpg",
+      "AssetFile": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\wwwroot\\uploadimage\\e9fc6260-a239-412f-8ab4-650bad41334e_paper.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qyWKqb39zIhEdZF/PWUlq4WTvNR+ddCBM97l+5+dHug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 12:56:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3imns6ap5n"
+        },
+        {
+          "Name": "label",
+          "Value": "uploadimage/e9fc6260-a239-412f-8ab4-650bad41334e_paper.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qyWKqb39zIhEdZF/PWUlq4WTvNR+ddCBM97l+5+dHug="
+        }
+      ]
+    },
+    {
+      "Route": "uploadimage/e9fc6260-a239-412f-8ab4-650bad41334e_paper.jpg",
+      "AssetFile": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\wwwroot\\uploadimage\\e9fc6260-a239-412f-8ab4-650bad41334e_paper.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qyWKqb39zIhEdZF/PWUlq4WTvNR+ddCBM97l+5+dHug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 12:56:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qyWKqb39zIhEdZF/PWUlq4WTvNR+ddCBM97l+5+dHug="
         }
       ]
     },

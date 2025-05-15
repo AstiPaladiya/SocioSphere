@@ -23,6 +23,8 @@ public partial class EventMaster
 
     public double? Price { get; set; }
 
+    public string? Reason { get; set; }
+
     public string? Status { get; set; }
 
     public DateTime? CreatedAt { get; set; }

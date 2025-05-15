@@ -13,7 +13,9 @@ namespace SocioSphere.Models.Entity;
 
         public bool? Isliked { get; set; }
 
-        public DateTime? UpdatedAt { get; set; }
+    public DateTime? CreatedAt { get; set; }
+
+    public DateTime? UpdatedAt { get; set; }
 
         public virtual SuggestionMaster? Suggestion { get; set; }
 
