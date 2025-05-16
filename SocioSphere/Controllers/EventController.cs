@@ -221,7 +221,7 @@ namespace SocioSphere.Controllers
         }
 
         [HttpGet]
-        [Route("updateMEventRecordStatusCompleted/{int:id}")]
+        [Route("updateMEventRecordStatusCompleted/{id:int}")]
         public IActionResult updateEventRecordStatus(int id)
         {
             try
@@ -274,65 +274,96 @@ namespace SocioSphere.Controllers
             }
         }
 
-        //[HttpGet]
-        //[Route("allPaidEventByMember")]
-        //public IActionResult getPaidEventByForMember()
-        //{
-        //    try
-        //    {
-        //        string mebId= Request.Headers["memberId"].ToString();
-        //        int memberId = int.Parse(mebId);
-        //        if (memberId != null)
-        //        {
-        //            var eventData = (from e in dbContext.EventMasters
-        //                             join pv in dbContext.PaidEventRecords
-        //                                 on new { EventId = e.Id, UserId = memberId }
-        //                                 equals new { EventId = pv.EventId, pv.UserId } into eventPayments
-        //                             from memberPayment in eventPayments.DefaultIfEmpty() 
-        //                             select new 
-        //                             {
-        //                                 e.Id,
-        //                                 e.EventName,
-        //                                 e.EventDate,
-        //                                 e.Destination,
-        //                                 e.EventTime,
-        //                                 e.Description,
-        //                                 e.PriceType,
-        //                                 e.Price,
-        //                                 IsRegisteredByMember = memberPayment != null,
-        //                                 MemberPaymentDetails = memberPayment != null
-        //                                     ? new
-        //                                     {
-        //                                         memberPayment.TotalPrice,
-        //                                         memberPayment.Status,
-        //                                         PaidEventId = memberPayment.Id
-        //                                     }
-        //                                     : null
-        //                             }).ToList();
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine($"Error: {ex.Message}");
-        //        return StatusCode(500, new { message = "Something went wrong.Please try again!" });
+        [HttpGet]
+        [Route("AllPaidEventByMember")]
+        public IActionResult getPaidEventByForMember()
+        {
+            try
+            {
+                string mebId = Request.Headers["memberId"].ToString();
+                int memberId = int.Parse(mebId);
+                if (memberId != null)
+                {
+                    var eventData = (from e in dbContext.EventMasters.Where (e=>e.EventType=="Paid")
+                                 join pv in dbContext.PaidEventRecords.Where(p => p.UserId == memberId)
+                                 on e.Id equals pv.EventId into paidEventGroup
+                                 from paid in paidEventGroup.DefaultIfEmpty()
+                                 select new
+                                 {
+                                     eventId = e.Id,
+                                     e.EventName,
+                                     e.EventType,
+                                     e.Destination,
+                                     e.Description,
+                                     e.EventDate,
+                                     e.EventTime,
+                                     e.PriceType,
+                                     e.Price,
+                                     e.Status,
+                                     IsRegisterdByMember = paid != null,
+                                     MemberPaymentDetails = paid != null ? new
+                                     {
+                                         paid.Id,
+                                         paid.TotalPrice,
+                                         paid.TotalMember,
+                                         paid.Status
+                                     } : null
+                                 }).ToList();
+                return Ok(eventData);
 
-        //    }
-        //}
-        //[HttpGet]
-        //[Route("paymentReceipt/{id:int}")]
-        //public IActionResult paymentReceipt(int id)
-        //{
-        //    try
-        //    {
-        //            var ev=dbContext.EventMasters.
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine($"Error: {ex.Message}");
-        //        return StatusCode(500, new { message = "Something went wrong.Please try again!" });
+                }
+                else
+                {
+                    return NotFound();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                return StatusCode(500, new { message = "Something went wrong.Please try again!" });
 
-        //    }
-        //}
-            
+            }
+           }
+        [HttpGet]
+        [Route("paymentReceipt/{pid:int}")]
+        public IActionResult paymentReceipt(int pid)
+        {
+            try
+            {
+                //string mebId = Request.Headers["memberId"].ToString();
+                //int memberId = int.Parse(mebId);
+                //if (memberId != null)
+                //{
+                    var ev = (from p in dbContext.PaidEventRecords where p.Id ==pid
+                              join e in dbContext.EventMasters on p.EventId equals e.Id
+                              join u in dbContext.UserMasters on p.UserId equals u.Id
+                              select new {
+                                  eventId = e.Id,
+                                  e.EventName,
+                                  e.EventType,
+                                  e.Destination,
+                                  e.Description,
+                                  e.EventDate,
+                                  e.EventTime,
+                                  e.PriceType,
+                                  e.Price,
+                                  e.Status,
+                                  p.TotalPrice,
+                                  p.TotalMember,
+                                  payment=p.Status,
+                                  p.CreatedAt, 
+                                  username=u.FirstName+" "+u.LastName
+                              }).ToList();
+                    return Ok(ev);
+                        //}
+                }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                return StatusCode(500, new { message = "Something went wrong.Please try again!" });
+
+            }
+        }
+
     }
 }

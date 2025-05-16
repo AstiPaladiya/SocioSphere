@@ -629,6 +629,16 @@
   },
   {
     "ContainingType": "SocioSphere.Controllers.EventController",
+    "Method": "getPaidEventByForMember",
+    "RelativePath": "api/Event/AllPaidEventByMember",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocioSphere.Controllers.EventController",
     "Method": "getAllPaidEventRecord",
     "RelativePath": "api/Event/allPaidEventRecordForAdmin/{id}",
     "HttpMethod": "GET",
@@ -673,6 +683,22 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocioSphere.Controllers.EventController",
+    "Method": "paymentReceipt",
+    "RelativePath": "api/Event/paymentReceipt/{pid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pid",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -754,7 +780,7 @@
   {
     "ContainingType": "SocioSphere.Controllers.EventController",
     "Method": "updateEventRecordStatus",
-    "RelativePath": "api/Event/updateMEventRecordStatusCompleted/{int id}",
+    "RelativePath": "api/Event/updateMEventRecordStatusCompleted/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -762,11 +788,6 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "int id",
-        "Type": "",
         "IsRequired": true
       }
     ],
