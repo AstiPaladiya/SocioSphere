@@ -7,9 +7,11 @@ public partial class EventGallery
 {
     public int Id { get; set; }
 
+    public int? UserId{get; set; }
+
     public int? EventId { get; set; }
 
-    public string? Photo { get; set; }
+    public String? Photo { get; set; }
 
     public string? Description { get; set; }
 
@@ -18,4 +20,6 @@ public partial class EventGallery
     public DateTime? UpdatedAt { get; set; }
 
     public virtual EventMaster? Event { get; set; }
+
+    public virtual UserMaster? User { get; set; }
 }

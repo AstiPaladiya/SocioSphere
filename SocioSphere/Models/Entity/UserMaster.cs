@@ -57,6 +57,8 @@ public partial class UserMaster
 
     public virtual ICollection<PaidEventRecord> PaidEventRecords { get; set; } = new List<PaidEventRecord>();
 
+    public virtual ICollection<EventGallery> EventGalleries { get; set; } = new List<EventGallery>();
+
     public virtual ICollection<SuggestionMaster> SuggestionMasters { get; set; } = new List<SuggestionMaster>();
 
     public virtual ICollection<SuggestionVote> SuggestionVotes { get; set; } = new List<SuggestionVote>();

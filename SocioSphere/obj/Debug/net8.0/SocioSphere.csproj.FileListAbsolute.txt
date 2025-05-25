@@ -273,12 +273,6 @@ D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\scopedcss\bundle\Socio
 D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\staticwebassets.build.json
 D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\staticwebassets.development.json
 D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\staticwebassets\msbuild.SocioSphere.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\staticwebassets\msbuild.SocioSphere.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\staticwebassets\msbuild.build.SocioSphere.props
-D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SocioSphere.props
-D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SocioSphere.props
-D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\SocioSph.D9ACDD35.Up2Date
 D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\SocioSphere.dll
@@ -296,3 +290,4 @@ D:\Fymca sem2\practical\.net\SocioSphere\bin\Debug\net8.0\MimeKit.dll
 D:\Fymca sem2\practical\.net\SocioSphere\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\Fymca sem2\practical\.net\SocioSphere\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\Fymca sem2\practical\.net\SocioSphere\bin\Debug\net8.0\SocioSphere.staticwebassets.runtime.json
+D:\Fymca sem2\practical\.net\SocioSphere\obj\Debug\net8.0\staticwebassets.build.json.cache

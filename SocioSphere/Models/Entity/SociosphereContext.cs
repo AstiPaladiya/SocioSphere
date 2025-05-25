@@ -278,10 +278,14 @@ public partial class SociosphereContext : DbContext
             entity.Property(e => e.UpdatedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
-
+            entity.Property(e => e.UserId).HasColumnName("user_id");
             entity.HasOne(d => d.Event).WithMany(p => p.EventGalleries)
                 .HasForeignKey(d => d.EventId)
                 .HasConstraintName("FK_event_gallery_event_master");
+
+            entity.HasOne(d => d.User).WithMany(p => p.EventGalleries)
+                .HasForeignKey(d => d.UserId)
+                .HasConstraintName("FK_event_gallery_user_master");
         });
 
         modelBuilder.Entity<EventMaster>(entity =>
