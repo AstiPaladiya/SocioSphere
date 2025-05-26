@@ -410,6 +410,8 @@ public partial class SociosphereContext : DbContext
                 .HasColumnType("text")
                 .HasColumnName("description");
             entity.Property(e => e.DueMonthYear).HasColumnName("due_month_year");
+            entity.Property(e => e.EndMonthYear).HasColumnName("end_month_year");
+            entity.Property(e => e.LatePaymentCharge).HasColumnName("late_payment_charge");
             entity.Property(e => e.MaintenanceCharge).HasColumnName("maintenance_charge");
             entity.Property(e => e.MaintenanceType)
                 .HasMaxLength(200)
@@ -430,6 +432,9 @@ public partial class SociosphereContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("created_at");
             entity.Property(e => e.FromMonth).HasColumnName("from_month");
+            entity.Property(e => e.Islatepayment).HasColumnName("islatepayment");
+            entity.Property(e => e.LatePayment).HasColumnName("late_payment");
+            entity.Property(e => e.LatePaymentReason).HasColumnName("late_payment_reason");
             entity.Property(e => e.MaintenanceId).HasColumnName("maintenance_id");
             entity.Property(e => e.PaidDate).HasColumnName("paid_date");
             entity.Property(e => e.PaymentImage)

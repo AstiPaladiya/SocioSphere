@@ -23,6 +23,12 @@ public partial class MaintenanceRecord
 
     public string? PaymentImage { get; set; }
 
+    public float? LatePayment { get; set; }
+
+    public bool? Islatepayment { get; set; }
+
+    public string? LatePaymentReason { get; set; }
+
     public string? Status { get; set; }
 
     public DateTime? CreatedAt { get; set; }

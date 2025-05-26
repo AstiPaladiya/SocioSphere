@@ -13,7 +13,11 @@ public partial class MaintenanceChargeMaster
 
     public DateOnly? StartingMonthYear { get; set; }
 
+    public DateOnly? EndMonthYear { get; set; }
+
     public DateOnly? DueMonthYear { get; set; }
+
+    public float? LatePaymentCharge { get; set; }
 
     public string? MaintenanceType { get; set; }
 

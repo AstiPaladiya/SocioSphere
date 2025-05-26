@@ -1108,6 +1108,69 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SocioSphere.Controllers.MaintenceController",
+    "Method": "getAllMaintenance",
+    "RelativePath": "api/Maintence",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocioSphere.Controllers.MaintenceController",
+    "Method": "addMaintenace",
+    "RelativePath": "api/Maintence",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addData",
+        "Type": "SocioSphere.Models.UserDataModels.AddUserData.AddMaintenanceData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocioSphere.Controllers.MaintenceController",
+    "Method": "getAllMaintenance",
+    "RelativePath": "api/Maintence/getMaintenanceById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocioSphere.Controllers.MaintenceController",
+    "Method": "updateMaintenace",
+    "RelativePath": "api/Maintence/updateMaintenace/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "upData",
+        "Type": "SocioSphere.Models.UserDataModels.UpdateUserData.UpdateMaintenanceData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SocioSphere.Controllers.MemberController",
     "Method": "getAllMemberById",
     "RelativePath": "api/Member/{id}",

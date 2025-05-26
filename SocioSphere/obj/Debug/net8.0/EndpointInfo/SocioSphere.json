@@ -1776,6 +1776,112 @@
         }
       }
     },
+    "/api/Maintence": {
+      "get": {
+        "tags": [
+          "Maintence"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Maintence"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddMaintenanceData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddMaintenanceData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddMaintenanceData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Maintence/getMaintenanceById/{id}": {
+      "get": {
+        "tags": [
+          "Maintence"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Maintence/updateMaintenace/{id}": {
+      "put": {
+        "tags": [
+          "Maintence"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMaintenanceData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMaintenanceData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMaintenanceData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Member/MemberRegister": {
       "post": {
         "tags": [
@@ -3257,6 +3363,55 @@
         },
         "additionalProperties": false
       },
+      "AddMaintenanceData": {
+        "type": "object",
+        "properties": {
+          "maintenanceCharge": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "startingMonth": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "startingYear": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dueMonth": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dueYear": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maintenanceType": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "AddMemberData": {
         "type": "object",
         "properties": {
@@ -3706,6 +3861,50 @@
           "expensesDate": {
             "type": "string",
             "format": "date",
+            "nullable": true
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateMaintenanceData": {
+        "type": "object",
+        "properties": {
+          "maintenanceCharge": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "startingMonth": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "startingYear": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dueMonth": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dueYear": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maintenanceType": {
+            "type": "string",
             "nullable": true
           },
           "updatedAt": {
