@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { Bootstrap } from "react-bootstrap";
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AuthContext from "./MainPage/AuthContext";
 import Login from './MainPage/Login';

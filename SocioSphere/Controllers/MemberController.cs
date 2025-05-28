@@ -1,12 +1,15 @@
-﻿using System.Security.Cryptography;
-using System.Text;
-using Azure;
+﻿using Azure;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using SocioSphere.Models.Entity;
 using SocioSphere.Models.Services;
 using SocioSphere.Models.UserDataModels.AddUserData;
+using SocioSphere.Models.UserDataModels.UpdateUserData;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace SocioSphere.Controllers
 {
@@ -89,22 +92,43 @@ namespace SocioSphere.Controllers
         }
         [HttpPut]
         [Route("toggleStatus/{id:int}")]
-        public IActionResult toggleMemberStatus(int id)
+        public async Task<IActionResult> toggleMemberStatus(int id, [FromBody]toggleStatus req)
         {
             try
             {
                 var member = dbContext.UserMasters.Find(id);
-
+                string reason = req.reason;
+                string toEmail = "";
+                string subject = "";
+                string message = "";
                 if (member.Status == "Active")
                 {
                     member.Status = "Block";
-
+                     toEmail = member.Email;
+                     subject = "Your SocioSphere  account has been blocked";
+                     message = "<h2>Hello, " + member.FirstName + " " + member.LastName + "</h2>" +
+                        "<p>Your account has been <strong>blocked</strong>.</p>" +
+                        "<p><b>Reason: </b>" + reason + "</p> " +
+                        "<p>If you believe this is a mistake, please contact support.</p>";
+                       
+                     
+                    
                 }
                 else
                 {
                     member.Status = "Active";
+                    toEmail = member.Email;
+                     subject = "Your SocioSphere  account has been Activated";
+                     message = "<h2>Hello, " + member.FirstName + " " + member.LastName + "</h2>" +
+                        "<p>Your account has been <strong>activated</strong>.</p>" +
+                        "<p><b>Reason: </b>" + reason + "</p> " +
+                        "<p>You can now log in and use the platform.</p>";
+
+               
+
                 }
                 member.UpdatedAt = DateTime.UtcNow;
+                await _emailService.sendMailAsync(toEmail, subject, message);
                 dbContext.SaveChanges();
 
                 return Ok(new { message = $"Member status {member.Status} successfully!" });
@@ -122,24 +146,48 @@ namespace SocioSphere.Controllers
         {
             try
             {
-                var members = dbContext.UserMasters
-                    .Where(u => u.GroupId == 2)
-                    .Select(u => new
-                    {
-                        u.Id,
-                        u.FirstName,
-                        u.MiddleName,
-                        u.LastName,
-                        u.Email,
-                        u.PhoneNo,
-                        u.Gender,
-                        u.SquarfootSize,
-                        u.LivingDate,
-                        u.Status,
-                        u.CreatedAt,
-                        u.UpdatedAt
-                    })
-                    .ToList();
+                var members = (from u in dbContext.UserMasters 
+                               join up in dbContext.UserPersonalDetails on  u.Id equals up.UserId
+                               where u.GroupId==2
+                               select new
+                               {
+                                   u.Id,
+                                   u.FirstName,
+                                   u.MiddleName,
+                                   u.LastName,
+                                   u.Email,
+                                   u.PhoneNo,
+                                   u.Gender,
+                                   u.SquarfootSize,
+                                   LivingDate = u.LivingDate.Value.ToString("dd-MM-yyyy"),
+
+                                   u.Status,
+                                   u.CreatedAt,
+                                   u.UpdatedAt,
+                                   up.FlatNo
+                               }).ToList();
+                    
+                    //dbContext.UserMasters.Include(u=>u.UserPersonalDetails)
+                    //.Where(u => u.GroupId == 2).OrderByDescending(u=>u.CreatedAt).AsEnumerable()
+                    //.Select(u => new
+                    //{
+                    //    u.Id,
+                    //    u.FirstName,
+                    //    u.MiddleName,
+                    //    u.LastName,
+                    //    u.Email,
+                    //    u.PhoneNo,
+                    //    u.Gender,
+                    //    u.SquarfootSize,
+                    //    LivingDate = u.LivingDate.Value.ToString("dd-MM-yyyy"),
+                        
+                    //    u.Status,
+                    //    u.CreatedAt,
+                    //    u.UpdatedAt,
+                    //    FlatNo = u.UserPersonalDetails
+                    //})
+                    //.ToList();
+               
 
                 return Ok(members);
             }
@@ -149,6 +197,42 @@ namespace SocioSphere.Controllers
                 return StatusCode(500, new { message = "Something went wrong. Please try again!" });
             }
         }
+        [HttpPut]
+        [Route("updateMember/{id:int}")]
+        public IActionResult updateMember(int id, UpdateMemberData upData)
+        {
+            try
+            {
+                var comEntity = dbContext.UserMasters.FirstOrDefault(c => c.Id == id );
+                if (comEntity == null)
+                {
+                    return NotFound(new { message = "User not found!" });
+                }
+                var userFlat=dbContext.UserPersonalDetails.FirstOrDefault(u=>u.UserId==id);
+                if (userFlat == null)
+                {
+                    return NotFound(new { message = "User personal detail not found!" });
+                }
+                comEntity.FirstName=upData.FirstName;
+                comEntity.MiddleName=upData.MiddleName;
+                comEntity.LastName=upData.LastName;
+                comEntity.Email=upData.Email;
+                comEntity.PhoneNo=upData.PhoneNo;
+                comEntity.Gender=upData.Gender;
+                comEntity.SquarfootSize=upData.SquarfootSize;
+                comEntity.LivingDate = upData.LivingDate;   
+                comEntity.UpdatedAt = DateTime.UtcNow;
+                userFlat.FlatNo = upData.FlatNo;
+                dbContext.SaveChanges();
+                return Ok(new { message = "Member updated successfully" });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                return StatusCode(500, new { message = "Something went wrong.Please try again!" });
+            }
+
+        }
 
 
         [HttpGet]
@@ -157,7 +241,54 @@ namespace SocioSphere.Controllers
         {
             try
             {
-                var member = dbContext.UserMasters.Find(id);
+                var member = (from u in dbContext.UserMasters
+                                           join up in dbContext.UserPersonalDetails on u.Id equals up.UserId
+
+                                           // Join with the latest CommitteMemberRecord for this user
+                                           join c in (
+                                               from cmr in dbContext.CommitteMemberRecords
+                                               where cmr.UserId == id
+                                               orderby cmr.Id descending
+                                               select cmr
+                                           ).Take(1) on u.Id equals c.UserId
+
+                                           join cm in dbContext.SocietyCommitteMasters on c.CommittieTypeId equals cm.Id
+                                           where u.Id == id
+                                           select new
+                                           {
+                                               u.Id,
+                                               u.FirstName,
+                                               u.MiddleName,
+                                               u.LastName,
+                                               u.Email,
+                                               photo = !string.IsNullOrEmpty(u.ProfilePhoto) ? $"{Request.Scheme}://{Request.Host}/uploadimage/{u.ProfilePhoto}" : null,
+
+                                               u.PhoneNo,
+                                               u.Gender,
+                                               u.Address,
+                                               u.TotalFamilyMember,
+                                               u.AdharcardNo,
+                                               u.SquarfootSize,
+                                               LivingDate = u.LivingDate.HasValue ? u.LivingDate.Value.ToString("dd-MM-yyyy") : null,
+                                               u.Status,
+                                               u.CreatedAt,
+                                               u.UpdatedAt,
+
+                                               up.FlatNo,
+                                               up.FatherName,
+                                               up.MotherName,
+                                               up.SpouseName,
+                                               up.SpouseOccupation,
+                                               up.AnotherPhoneNo,
+                                               up.NoOfChild,
+                                       anotherIdProof = !string.IsNullOrEmpty(up.AnotherIdProof) ? $"{Request.Scheme}://{Request.Host}/uploadimage/{up.AnotherIdProof}" : null,
+                   
+                                               up.RelationshipStatus,
+                                               up.Occupation,
+
+                                               cm.CommitteName
+                                           }).FirstOrDefault();
+
                 if (member == null)
                 {
                     return NotFound(new { message = "Member record not found." });

@@ -139,7 +139,7 @@ export default function AddMember() {
       const generatedPassword = response.data.password;
       // If successful, show success toast
       setToastHeader("Success!")
-      setToastMessage(`${successmsg}:${generatedPassword}`);
+      setToastMessage(`${successmsg}\nPassword:${generatedPassword}`);
       setToastVariant("success");
       setShowToast(true);
 
@@ -173,8 +173,17 @@ export default function AddMember() {
   return (
     <>
     <ToastContainer position="top-center"
-          className="position-fixed top-0 start-50 translate-middle-x "
-         style={{marginTop:"5%",textAlign:"center"}}
+          // className="position-fixed top-0 start-50 translate-middle-x "
+        //  style={{marginTop:"5%",textAlign:"center"}}
+        className="p-3"
+                style={{
+                    position: 'fixed',
+                    top: '20px',
+                    left: '50%',
+                    transform: 'translateX(-50%)',
+                    zIndex: 9999,
+                    textAlign:"center"
+                }}
     >
         <Toast
        

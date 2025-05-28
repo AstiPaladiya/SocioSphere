@@ -15,20 +15,20 @@ namespace SocioSphere.Controllers
         }
 
         //Member side 
-        [HttpGet]
-        [Route("getAllMaintenanceDetailByMember")]
-        public IActionResult getAllMaintenanceByMember()
-        {
-            try
-            {
-                var maintenanceDetial=(from m in dbContext.MaintenanceChargeMasters 
-                                       join mr in dbContext.MaintenanceRecords on m.Id equals mr.MaintenanceId
-                                       select data => { 
+        //[HttpGet]
+        //[Route("getAllMaintenanceDetailByMember")]
+        //public IActionResult getAllMaintenanceByMember()
+        //{
+        //    try
+        //    {
+        //        var maintenanceDetial=(from m in dbContext.MaintenanceChargeMasters 
+        //                               join mr in dbContext.MaintenanceRecords on m.Id equals mr.MaintenanceId
+        //                               select data => { 
                                             
-                                       }).ToList();
-            }
-            catch (Exception ex) { 
+        //                               }).ToList();
+        //    }
+        //    catch (Exception ex) { 
             
-            }
+        //    }
     }
 }
