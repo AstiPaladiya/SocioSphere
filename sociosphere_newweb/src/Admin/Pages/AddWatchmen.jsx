@@ -13,20 +13,20 @@ import {
 import { useNavigate } from "react-router-dom";
 
 export default function AddWatchmen() {
-    const [watchman, setWatchman] = useState({
-        firstName: "",
-        middleName: "",
-        lastName: "",
-        phoneNo: "",
-        email: "", // added
-        gender: "",
-        dutyStartTime: "",
-        dutyEndTime: "",
-        joiningDate: "",
-        status:"Active",
-        salary: "",
-      });
-      
+  const [watchman, setWatchman] = useState({
+    firstName: "",
+    middleName: "",
+    lastName: "",
+    phoneNo: "",
+    email: "", // added
+    gender: "",
+    dutyStartTime: "",
+    dutyEndTime: "",
+    joiningDate: "",
+    status: "Active",
+    salary: "",
+  });
+
 
   const [errors, setErrors] = useState({});
   const [showToast, setShowToast] = useState(false);
@@ -63,11 +63,11 @@ export default function AddWatchmen() {
       newErrors.phoneNo = "Phone number must be 10 digits";
     }
     if (!watchman.email.trim()) {
-        newErrors.email = "Email is required";
-      } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(watchman.email)) {
-        newErrors.email = "Email is not valid";
-      }
-      
+      newErrors.email = "Email is required";
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(watchman.email)) {
+      newErrors.email = "Email is not valid";
+    }
+
     if (!watchman.gender) newErrors.gender = "Gender is required";
     if (!watchman.dutyStartTime.trim()) newErrors.dutyStartTime = "Start time is required";
     if (!watchman.dutyEndTime.trim()) newErrors.dutyEndTime = "End time is required";
@@ -104,7 +104,7 @@ export default function AddWatchmen() {
         joiningDate: "",
         salary: "",
       });
-      
+
     } catch (error) {
       const message =
         error.response?.data?.message ||
@@ -206,20 +206,20 @@ export default function AddWatchmen() {
                 </Form.Group>
               </Col>
               <Col md={6}>
-  <Form.Group className="mb-3">
-    <Form.Label>Email</Form.Label>
-    <Form.Control
-      type="email"
-      name="email"
-      value={watchman.email}
-      onChange={handleChange}
-      isInvalid={!!errors.email}
-    />
-    <Form.Control.Feedback type="invalid">
-      {errors.email}
-    </Form.Control.Feedback>
-  </Form.Group>
-</Col>
+                <Form.Group className="mb-3">
+                  <Form.Label>Email</Form.Label>
+                  <Form.Control
+                    type="email"
+                    name="email"
+                    value={watchman.email}
+                    onChange={handleChange}
+                    isInvalid={!!errors.email}
+                  />
+                  <Form.Control.Feedback type="invalid">
+                    {errors.email}
+                  </Form.Control.Feedback>
+                </Form.Group>
+              </Col>
 
               <Col md={6}>
                 <Form.Group className="mb-3">
