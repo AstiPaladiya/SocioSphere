@@ -5,7 +5,7 @@ import {
     Table, TableBody, TableCell, TableContainer, Box, TableSortLabel,
     TableHead, TablePagination, TableRow, Paper, TableFooter, useTheme
 } from "@mui/material";
-
+import API_BASE_URL from "../../config";
 import IconButton from '@mui/material/IconButton';
 import FirstPageIcon from '@mui/icons-material/FirstPage';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
@@ -131,7 +131,7 @@ export default function Member() {
 
     const fetchMembers = async () => {
         try {
-            const res = await axios.get("http://192.168.229.34:5175/api/Member/GetAllMembers");
+            const res = await axios.get(`${API_BASE_URL}/Member/GetAllMembers`);
             const formatted = res.data.map((m) => ({
                 ...m,
                 fullName: `${m.firstName} ${m.middleName} ${m.lastName}`,
@@ -197,7 +197,7 @@ export default function Member() {
         e.preventDefault();
         if (!validate()) return;
         try {
-            const res = await axios.put(`http://192.168.229.34:5175/api/Member/toggleStatus/${memberId}`, {reason:getData.reason});
+            const res = await axios.put(`${API_BASE_URL}/Member/toggleStatus/${memberId}`, {reason:getData.reason});
             handleClose();
             fetchMembers(); // Refresh data
             const resMsg = res.data.message || "Status updated successfully";

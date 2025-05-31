@@ -32,6 +32,7 @@ import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import LogoutIcon from "@mui/icons-material/Logout";
 import AuthContext from "../../MainPage/AuthContext";
 import MenuOpenIcon from "@mui/icons-material/MenuOpen";
+import RecentActorsIcon from '@mui/icons-material/RecentActors';
 const drawerWidth = 300;
 
 export default function AdminNavbar() {
@@ -65,7 +66,7 @@ export default function AdminNavbar() {
     handleClose();
     navigate("/");
   };
-  const selectedItemStyle={
+  const selectedItemStyle = {
     "&.Mui-selected": {
       backgroundColor: "rgba(243, 243, 243, 0.56)", // soft light indigo
       backdropFilter: "blur(6px)",
@@ -82,7 +83,7 @@ export default function AdminNavbar() {
     },
     borderRadius: "4px",
   };
-  
+
   return (
     <>
       <AppBar position="fixed" sx={{ backgroundColor: "white", zIndex: 1400 }}>
@@ -105,7 +106,7 @@ export default function AdminNavbar() {
             </Toolbar>
           </div>
           <div className="col-2" >
-            <IconButton onClick={handleAvatarClick} style={{backgroundColor:"rgb(243, 240, 240)"}}>
+            <IconButton onClick={handleAvatarClick} style={{ backgroundColor: "rgb(243, 240, 240)" }}>
               <Avatar alt="Admin" src="/Images/admin.jpg" />
             </IconButton>
           </div>
@@ -169,7 +170,7 @@ export default function AdminNavbar() {
             component={Link}
             to="/Admin"
             selected={location.pathname === "/Admin"}
-            sx={{...(location.pathname==="/Admin")?selectedItemStyle:{}}}
+            sx={{ ...(location.pathname === "/Admin") ? selectedItemStyle : {} }}
           >
             <ListItemIcon sx={{ color: "inherit" }}>
               <Dashboard />
@@ -179,7 +180,7 @@ export default function AdminNavbar() {
 
           <Divider sx={{ borderColor: "#3949ab", my: 1 }} />
 
-          <ListItemButton onClick={handleUserClick} style={{cursor:"pointer"}}>
+          <ListItemButton onClick={handleUserClick} style={{ cursor: "pointer" }}>
             <ListItemIcon sx={{ color: "inherit" }}>
               <People />
             </ListItemIcon>
@@ -196,24 +197,26 @@ export default function AdminNavbar() {
             <List component="div" disablePadding>
               <ListItemButton
                 component={Link}
-                to="/Admin/Member" 
+                to="/Admin/Member"
                 selected={location.pathname === "/Admin/Member"}
-                sx={{pl:4,color:"inherit",
+                sx={{
+                  pl: 4, color: "inherit",
                   ...(location.pathname === "/Admin/Member" ? selectedItemStyle : {})
                 }}
-                
+
               >
                 <ListItemText primary="-  Member" sx={{ color: "black" }} />
               </ListItemButton>
               <ListItemButton
-            
+
                 component={Link}
                 to="/Admin/WatchmenRecord"
                 selected={location.pathname === "/Admin/Member"}
-                sx={{pl:4,color:"inherit",
+                sx={{
+                  pl: 4, color: "inherit",
                   ...(location.pathname === "/Admin/Member" ? selectedItemStyle : {})
                 }}
-                
+
               >
                 <ListItemText primary="-  Watchmen" sx={{ color: "black" }} />
               </ListItemButton>
@@ -226,7 +229,7 @@ export default function AdminNavbar() {
             <ListItemIcon sx={{ color: "inherit" }}>
               <Society />
             </ListItemIcon>
-            <ListItemText primary="Society Committee" sx={{ color: "inherit",cursor:"pointer" }} />
+            <ListItemText primary="Society Committee" sx={{ color: "inherit", cursor: "pointer" }} />
             {societyOpen ? <ExpandLess /> : <ExpandMore />}
           </ListItem>
 
@@ -260,7 +263,21 @@ export default function AdminNavbar() {
                 />
               </ListItem>
             </List>
+
           </Collapse>
+
+          <Divider sx={{ borderColor: "#3949ab", my: 1 }} />
+
+          <ListItemButton
+            component={Link}
+            to="/Admin/Agency">
+            <ListItemIcon sx={{ color: "inherit" }}>
+              <RecentActorsIcon />
+            </ListItemIcon>
+            <ListItemText primary="Agency" sx={{ color: "inherit" }} />
+          </ListItemButton>
+
+          <Divider sx={{ borderColor: "#3949ab", my: 1 }} />
         </List>
       </Drawer>
     </>

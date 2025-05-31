@@ -19,6 +19,8 @@ import AddMember from "./Admin/Pages/AddMember";
 import ViewMember from "./Admin/Pages/ViewMember";
 import Watchmenrecord from "./Admin/Pages/watchmenrecord";
 import AddWatchmen from "./Admin/Pages/AddWatchmen";
+import Agency from "./Admin/Pages/Agency";
+import Visiter from "./Admin/Pages/Visiter";
 
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
                 <Route path="Watchmenrecord/AddWatchmen" element={<AddWatchmen/>}/>
                 <Route path="SocietyMemberType" element={<SocietyMemberType />} />
                 <Route path="SocietyMemberRecord" element={<SocietyMemberRecord />} />
+                <Route path="Agency" element={<Agency />} />
+                <Route path="Visiter" element={<Visiter />} />
               </Route>
             </Route>
 

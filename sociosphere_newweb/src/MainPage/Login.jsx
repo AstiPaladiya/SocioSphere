@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import axios from "axios";
+import API_BASE_URL  from  "../config";
 import { useNavigate } from "react-router-dom";
 import { Toast, ToastContainer } from "react-bootstrap";
 import AuthContext from "./AuthContext";
@@ -60,7 +61,7 @@ export default function Login(props) {
 
     try {
       const res = await axios.post(
-        "http://192.168.229.34:5175/api/Login/login",
+        `${API_BASE_URL}/Login/login`,
         formData
       );
       const { token, role } = res.data;

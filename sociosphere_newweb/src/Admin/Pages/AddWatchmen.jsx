@@ -308,7 +308,7 @@ export default function AddWatchmen() {
               <Col md={12} className="text-end">
                 <Button type="submit" variant="primary">
                   Submit
-                </Button>{" "}
+                </Button>
                 <Button type="button" onClick={handleBack} variant="secondary">
                   Back
                 </Button>
