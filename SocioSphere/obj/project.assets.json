@@ -8199,23 +8199,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\os\\.nuget\\packages\\": {},
+    "C:\\Users\\princ\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\SocioSphere.csproj",
+      "projectUniqueName": "D:\\SocioSphere\\SocioSphere.csproj",
       "projectName": "SocioSphere",
-      "projectPath": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\SocioSphere.csproj",
-      "packagesPath": "C:\\Users\\os\\.nuget\\packages\\",
-      "outputPath": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\obj\\",
+      "projectPath": "D:\\SocioSphere\\SocioSphere.csproj",
+      "packagesPath": "C:\\Users\\princ\\.nuget\\packages\\",
+      "outputPath": "D:\\SocioSphere\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\os\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\princ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

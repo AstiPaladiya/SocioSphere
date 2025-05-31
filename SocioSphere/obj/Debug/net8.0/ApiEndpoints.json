@@ -148,6 +148,38 @@
   },
   {
     "ContainingType": "SocioSphere.Controllers.AgencyContactController",
+    "Method": "getAgencyContactByAgencTypeId",
+    "RelativePath": "api/AgencyContact/agencyContactByType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocioSphere.Controllers.AgencyContactController",
+    "Method": "deleteAgencyContact",
+    "RelativePath": "api/AgencyContact/deleteAgencyContact/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SocioSphere.Controllers.AgencyContactController",
     "Method": "getAgencyType",
     "RelativePath": "api/AgencyContact/getActiveAgencyType",
     "HttpMethod": "GET",

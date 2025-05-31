@@ -12,7 +12,7 @@
 
         public long? ContactNo { get; set; }
 
-        public long? AlternateContactNo { get; set; }
+        public long? AlternateContactNo { get; set; } 
 
         public DateTime? CreatedAt { get; set; }
 

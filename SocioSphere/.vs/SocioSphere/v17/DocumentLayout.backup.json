@@ -1,122 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\",
+  "WorkspaceRootPath": "D:\\SocioSphere\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\agencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\agencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\maintencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\maintencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\maintenancerecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\maintenancerecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\visitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\visitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\expensesrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\expensesrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\eventgallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\eventgallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\models\\entity\\committememberrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\committememberrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\models\\entity\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\watchmencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\watchmencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\models\\entity\\userpersonaldetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\userpersonaldetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\agencycontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\agencycontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\agencycontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\suggestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\suggestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\eventgallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\eventgallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\societycommittecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\societycommittecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\agencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\agencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\societymeetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\societymeetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\expensesrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\expensesrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\memberdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\memberdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\adduserdata\\addagencycontactdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\addagencycontactdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\complaintypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\complaintypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\adduserdata\\addagencydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\addagencydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\models\\userdatamodels\\updateuserdata\\updatememberdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\updateuserdata\\updatememberdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\complaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\complaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\models\\userdatamodels\\adduserdata\\addmemberdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\addmemberdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\models\\userdatamodels\\updateuserdata\\togglestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\updateuserdata\\togglestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\models\\entity\\sociospherecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\sociospherecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\models\\userdatamodels\\adduserdata\\addmaintenancedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\addmaintenancedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\fymca sem2\\practical\\.net\\sociosphere\\models\\userdatamodels\\adduserdata\\addgallerydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\addgallerydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -146,359 +62,108 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MemberController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\MemberController.cs",
-              "RelativeToolTip": "Controllers\\MemberController.cs",
-              "ViewState": "AgIAAPMAAAAAAAAAAAAwwAgBAAAAAAAAAAAAAA==",
+              "Title": "ExpensesRecordController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\ExpensesRecordController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExpensesRecordController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\ExpensesRecordController.cs",
+              "RelativeToolTip": "Controllers\\ExpensesRecordController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwFYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:58:32.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T04:23:36.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddAgencyData.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddAgencyData.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\AddAgencyData.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddAgencyData.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\AddAgencyData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:23:39.135Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "VisiterController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\VisiterController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VisiterController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\VisiterController.cs",
-              "RelativeToolTip": "Controllers\\VisiterController.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAIwK4AAAA2AAAAAAAAAA==",
+              "Title": "AddAgencyContactData.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddAgencyContactData.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\AddAgencyContactData.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddAgencyContactData.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\AddAgencyContactData.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:00:01.12Z"
+              "WhenOpened": "2025-05-30T09:35:45.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MaintenanceRecordController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\MaintenanceRecordController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MaintenanceRecordController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\MaintenanceRecordController.cs",
-              "RelativeToolTip": "Controllers\\MaintenanceRecordController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBQAAAALAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AgencyContactController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\AgencyContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgencyContactController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\AgencyContactController.cs",
+              "RelativeToolTip": "Controllers\\AgencyContactController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwEQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T12:49:43.359Z",
+              "WhenOpened": "2025-05-30T04:22:06.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MaintenceController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\MaintenceController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MaintenceController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\MaintenceController.cs",
-              "RelativeToolTip": "Controllers\\MaintenceController.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAIwEAAAAAlAAAAAAAAAA==",
+              "Title": "EventGalleryController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\EventGalleryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventGalleryController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\EventGalleryController.cs",
+              "RelativeToolTip": "Controllers\\EventGalleryController.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAQwMEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T04:49:13.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AgencyController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\AgencyController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AgencyController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\AgencyController.cs",
-              "RelativeToolTip": "Controllers\\AgencyController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:17:45.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T04:30:35.257Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ExpensesRecordController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\ExpensesRecordController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ExpensesRecordController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\ExpensesRecordController.cs",
-              "RelativeToolTip": "Controllers\\ExpensesRecordController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SocioSphere\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\SocioSphere\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-29T15:06:14.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgencyController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\AgencyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgencyController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\AgencyController.cs",
+              "RelativeToolTip": "Controllers\\AgencyController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwGQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T06:47:07.443Z"
+              "WhenOpened": "2025-05-29T13:13:02.981Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "EventGalleryController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\EventGalleryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EventGalleryController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\EventGalleryController.cs",
-              "RelativeToolTip": "Controllers\\EventGalleryController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowDEAAAAcAAAAAAAAAA==",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwCMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:18:56.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExpensesController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\ExpensesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ExpensesController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\ExpensesController.cs",
-              "RelativeToolTip": "Controllers\\ExpensesController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAiwGIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T06:46:51.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WatchmenController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\WatchmenController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WatchmenController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\WatchmenController.cs",
-              "RelativeToolTip": "Controllers\\WatchmenController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:26:00.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserMaster.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\Entity\\UserMaster.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\UserMaster.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\Entity\\UserMaster.cs",
-              "RelativeToolTip": "Models\\Entity\\UserMaster.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:16:45.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CommitteMemberRecord.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\Entity\\CommitteMemberRecord.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\CommitteMemberRecord.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\Entity\\CommitteMemberRecord.cs",
-              "RelativeToolTip": "Models\\Entity\\CommitteMemberRecord.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:25:35.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserPersonalDetail.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\Entity\\UserPersonalDetail.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\UserPersonalDetail.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\Entity\\UserPersonalDetail.cs",
-              "RelativeToolTip": "Models\\Entity\\UserPersonalDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:14:00.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SuggestionController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\SuggestionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SuggestionController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\SuggestionController.cs",
-              "RelativeToolTip": "Controllers\\SuggestionController.cs",
-              "ViewState": "AgIAABIAAAAARhdeQ5QkwEcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T06:42:31.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AgencyContactController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\AgencyContactController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AgencyContactController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\AgencyContactController.cs",
-              "RelativeToolTip": "Controllers\\AgencyContactController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T17:19:29.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SocietyCommitteController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\SocietyCommitteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SocietyCommitteController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\SocietyCommitteController.cs",
-              "RelativeToolTip": "Controllers\\SocietyCommitteController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wD0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T07:08:45.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SocietyMeetingController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\SocietyMeetingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SocietyMeetingController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\SocietyMeetingController.cs",
-              "RelativeToolTip": "Controllers\\SocietyMeetingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T07:08:53.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MemberDashboardController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\MemberDashboardController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MemberDashboardController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\MemberDashboardController.cs",
-              "RelativeToolTip": "Controllers\\MemberDashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T17:08:40.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ComplaintypeController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\ComplaintypeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ComplaintypeController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\ComplaintypeController.cs",
-              "RelativeToolTip": "Controllers\\ComplaintypeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T06:42:01.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ComplainController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\ComplainController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ComplainController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\ComplainController.cs",
-              "RelativeToolTip": "Controllers\\ComplainController.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAiwH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T06:29:57.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UpdateMemberData.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\UserDataModels\\UpdateUserData\\UpdateMemberData.cs",
-              "RelativeDocumentMoniker": "Models\\UserDataModels\\UpdateUserData\\UpdateMemberData.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\UserDataModels\\UpdateUserData\\UpdateMemberData.cs",
-              "RelativeToolTip": "Models\\UserDataModels\\UpdateUserData\\UpdateMemberData.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:27:47.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AddMemberData.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddMemberData.cs",
-              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\AddMemberData.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddMemberData.cs",
-              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\AddMemberData.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwCIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:28:02.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "toggleStatus.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\UserDataModels\\UpdateUserData\\toggleStatus.cs",
-              "RelativeDocumentMoniker": "Models\\UserDataModels\\UpdateUserData\\toggleStatus.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\UserDataModels\\UpdateUserData\\toggleStatus.cs",
-              "RelativeToolTip": "Models\\UserDataModels\\UpdateUserData\\toggleStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T14:51:02.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T10:06:18.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-25T12:58:24.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AgendaController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\AgendaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AgendaController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\AgendaController.cs",
-              "RelativeToolTip": "Controllers\\AgendaController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAqwD4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T06:29:43.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Controllers\\EventController.cs",
-              "RelativeToolTip": "Controllers\\EventController.cs",
-              "ViewState": "AgIAALkAAAAAAAAAAAAAwEgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:19:01.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SociosphereContext.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\Entity\\SociosphereContext.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\SociosphereContext.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\Entity\\SociosphereContext.cs",
-              "RelativeToolTip": "Models\\Entity\\SociosphereContext.cs",
-              "ViewState": "AgIAAK0BAAAAAAAAAAAYwNMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:39:53.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AddMaintenanceData.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddMaintenanceData.cs",
-              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\AddMaintenanceData.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddMaintenanceData.cs",
-              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\AddMaintenanceData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:20:19.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AddGalleryData.cs",
-              "DocumentMoniker": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddGalleryData.cs",
-              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\AddGalleryData.cs",
-              "ToolTip": "D:\\Fymca sem2\\practical\\.net\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddGalleryData.cs",
-              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\AddGalleryData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:35:19.784Z"
+              "WhenOpened": "2025-05-29T15:08:53.144Z"
             }
           ]
         }

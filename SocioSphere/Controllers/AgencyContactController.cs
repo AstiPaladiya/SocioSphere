@@ -24,8 +24,9 @@ namespace SocioSphere.Controllers
             try
             {
                 var contact = from a in dbContext.AgencyContacts
-                              join agencyType in dbContext.AgencyMasters
+                              join agencyType in dbContext.AgencyMasters 
                               on a.AgencyTypeId equals agencyType.Id
+                              where agencyType.Status=="Active"
                               select new
                               {
                                   a.Id,
@@ -59,7 +60,6 @@ namespace SocioSphere.Controllers
                     Select(a=>new
                     {
                         a.AgencyTypeId,
-
                         a.ContactPersonName,
                         a.Location,
                         a.EmailId,
@@ -80,6 +80,36 @@ namespace SocioSphere.Controllers
 
             }
         }
+        [HttpGet]
+        [Route("agencyContactByType/{id:int}")]
+        public IActionResult getAgencyContactByAgencTypeId(int id)
+        {
+            try
+            {
+                var agency = dbContext.AgencyContacts.Include(a => a.AgencyType).Where(a => a.AgencyTypeId == id).
+                    Select(a => new
+                    {
+                        a.AgencyTypeId,
+                        a.ContactPersonName,
+                        a.Location,
+                        a.EmailId,
+                        a.ContactNo,
+                        a.AlternateContactNo,
+                        agencytype = a.AgencyType.AgencyTypeName
+                    }).ToList();
+                if (agency == null)
+                {
+                    return NotFound(new { message = "Agency contact not found!" });
+
+                }
+                return Ok(agency);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Something went wrong.Please try again!" });
+
+            }
+        }
 
         //Add Data
         [HttpPost]
@@ -87,11 +117,11 @@ namespace SocioSphere.Controllers
         {
             try
             {
-                var typeExists = dbContext.AgencyMasters.Any(e => e.Id == contactData.AgencyTypeId);
-                if (!typeExists)
-                {
-                    return BadRequest(new { message = "Invalid Agency type" });
-                }
+                //var typeExists = dbContext.AgencyMasters.Any(e => e.Id == contactData.AgencyTypeId);
+                //if (!typeExists)
+                //{
+                //    return BadRequest(new { message = "Invalid Agency type" });
+                //}
 
                 var contact = new AgencyContact
                 {
@@ -173,7 +203,28 @@ namespace SocioSphere.Controllers
 
             }
         }
+        [HttpDelete]
+        [Route("deleteAgencyContact/{id:int}")]
+        public IActionResult deleteAgencyContact(int id)
+        {
+            try
+            {
+                var galleryData = dbContext.AgencyContacts.Find(id);
+                if (galleryData == null)
+                {
+                    return NotFound(new { message = "Agency contact record not found!" });
+                }
+               
+                dbContext.AgencyContacts.Remove(galleryData);
+                dbContext.SaveChanges();
+                return Ok(new { message = "Agency contact record deleted successfully" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Something went wrong.Please try again!", error = ex.Message });
 
+            }
 
+        }
     }
 }
