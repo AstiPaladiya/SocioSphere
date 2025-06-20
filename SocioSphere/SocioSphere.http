@@ -1,0 +1,6 @@
+@SocioSphere_HostAddress = http://0.0.0.0:5175
+
+GET {{SocioSphere_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

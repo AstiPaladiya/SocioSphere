@@ -1,0 +1,801 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SocioSphere\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\maintenancerecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\maintenancerecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\entity\\maintenancechargemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\maintenancechargemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\services\\uploadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\services\\uploadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\complaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\complaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\complaintypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\complaintypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\eventgallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\eventgallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\expensesrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\expensesrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\agencycontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\agencycontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\agencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\agencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\maintencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\maintencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\memberdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\memberdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\adduserdata\\userforgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\userforgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\adduserdata\\logincredential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\logincredential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\visitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\visitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\entity\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\watchmencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\watchmencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\updateuserdata\\updatewatchmendata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\updateuserdata\\updatewatchmendata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\entity\\userpersonaldetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\userpersonaldetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\adduserdata\\addwatchmendata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\addwatchmendata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\updateuserdata\\updatememberdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\updateuserdata\\updatememberdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\suggestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\suggestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\societycommittecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\societycommittecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\adduserdata\\addrejectmaintenance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\addrejectmaintenance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\adduserdata\\addexpensesrecorddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\addexpensesrecorddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\adduserdata\\addmaintenancedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\addmaintenancedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\adduserdata\\addcomplaindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\addcomplaindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\entity\\visiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\visiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\entity\\expensesrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\expensesrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\entity\\expensesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\expensesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\entity\\maintenancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\maintenancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\entity\\complaintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\complaintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\userdatamodels\\adduserdata\\addexpensesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\userdatamodels\\adduserdata\\addexpensesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\entity\\complainmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\complainmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\committemembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\committemembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\controllers\\societymeetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:controllers\\societymeetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|d:\\sociosphere\\models\\entity\\sociospherecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DB074D-CC4B-478A-B313-3A48D5B3E10C}|SocioSphere.csproj|solutionrelative:models\\entity\\sociospherecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MemberController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Controllers\\MemberController.cs",
+              "ViewState": "AgIAAEoBAAAAr+WgioMowNcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:31:55.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventGalleryController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\EventGalleryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventGalleryController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\EventGalleryController.cs",
+              "RelativeToolTip": "Controllers\\EventGalleryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T05:54:46.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailServices.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Services\\EmailServices.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\EmailServices.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Services\\EmailServices.cs",
+              "RelativeToolTip": "Models\\Services\\EmailServices.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T06:20:53.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MaintenanceChargeMaster.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Entity\\MaintenanceChargeMaster.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\MaintenanceChargeMaster.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Entity\\MaintenanceChargeMaster.cs",
+              "RelativeToolTip": "Models\\Entity\\MaintenanceChargeMaster.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:59:19.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MaintenanceRecordController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\MaintenanceRecordController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MaintenanceRecordController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\MaintenanceRecordController.cs",
+              "RelativeToolTip": "Controllers\\MaintenanceRecordController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwFwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:35:12.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwJEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T00:35:45.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComplaintypeController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\ComplaintypeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ComplaintypeController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\ComplaintypeController.cs",
+              "RelativeToolTip": "Controllers\\ComplaintypeController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T11:04:36.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComplainController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\ComplainController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ComplainController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\ComplainController.cs",
+              "RelativeToolTip": "Controllers\\ComplainController.cs",
+              "ViewState": "AgIAAG4BAAAAAAAAAAAcwEcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T16:20:19.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UploadFileService.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Services\\UploadFileService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\UploadFileService.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Services\\UploadFileService.cs",
+              "RelativeToolTip": "Models\\Services\\UploadFileService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T06:20:35.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExpensesController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:36:09.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExpensesRecordController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\ExpensesRecordController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExpensesRecordController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\ExpensesRecordController.cs",
+              "RelativeToolTip": "Controllers\\ExpensesRecordController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwAIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T11:05:12.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MaintenceController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\MaintenceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MaintenceController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\MaintenceController.cs",
+              "RelativeToolTip": "Controllers\\MaintenceController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:38:06.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminDashboardController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\AdminDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminDashboardController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\AdminDashboardController.cs",
+              "RelativeToolTip": "Controllers\\AdminDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:24:33.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AgencyContactController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\AgencyContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgencyContactController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\AgencyContactController.cs",
+              "RelativeToolTip": "Controllers\\AgencyContactController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T23:34:03.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AgencyController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\AgencyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgencyController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\AgencyController.cs",
+              "RelativeToolTip": "Controllers\\AgencyController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T05:43:18.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MemberDashboardController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\MemberDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MemberDashboardController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\MemberDashboardController.cs",
+              "RelativeToolTip": "Controllers\\MemberDashboardController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:35:48.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateWatchmenData.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\UpdateUserData\\UpdateWatchmenData.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\UpdateUserData\\UpdateWatchmenData.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\UpdateUserData\\UpdateWatchmenData.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\UpdateUserData\\UpdateWatchmenData.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T00:17:34.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VisiterController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\VisiterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VisiterController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\VisiterController.cs",
+              "RelativeToolTip": "Controllers\\VisiterController.cs",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAswDABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:39:05.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WatchmenController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\WatchmenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WatchmenController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\WatchmenController.cs",
+              "RelativeToolTip": "Controllers\\WatchmenController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAawJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T02:09:29.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserForgetPasswordDto.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\UserForgetPasswordDto.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\UserForgetPasswordDto.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\UserForgetPasswordDto.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\UserForgetPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T02:16:27.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginCredential.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\LoginCredential.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\LoginCredential.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\LoginCredential.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\LoginCredential.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T02:16:36.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserPersonalDetail.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Entity\\UserPersonalDetail.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\UserPersonalDetail.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Entity\\UserPersonalDetail.cs",
+              "RelativeToolTip": "Models\\Entity\\UserPersonalDetail.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAywBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T17:59:11.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserMaster.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Entity\\UserMaster.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\UserMaster.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Entity\\UserMaster.cs",
+              "RelativeToolTip": "Models\\Entity\\UserMaster.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwCkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T17:58:18.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddWatchmenData.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddWatchmenData.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\AddWatchmenData.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddWatchmenData.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\AddWatchmenData.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T00:17:42.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAHEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:09:48.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SuggestionController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\SuggestionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SuggestionController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\SuggestionController.cs",
+              "RelativeToolTip": "Controllers\\SuggestionController.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:40:40.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateMemberData.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\UpdateUserData\\UpdateMemberData.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\UpdateUserData\\UpdateMemberData.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\UpdateUserData\\UpdateMemberData.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\UpdateUserData\\UpdateMemberData.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAxwC4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T17:58:05.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\SocioSphere\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:52:27.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:32:27.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SocietyCommitteController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\SocietyCommitteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SocietyCommitteController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\SocietyCommitteController.cs",
+              "RelativeToolTip": "Controllers\\SocietyCommitteController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAIoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:34:52.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddExpensesRecorddata.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddExpensesRecorddata.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\AddExpensesRecorddata.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddExpensesRecorddata.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\AddExpensesRecorddata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:02:19.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SocioSphere\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\SocioSphere\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T04:52:26.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AddrejectMaintenance.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddrejectMaintenance.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\AddrejectMaintenance.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddrejectMaintenance.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\AddrejectMaintenance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T03:40:24.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AddComplainData.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddComplainData.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\AddComplainData.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddComplainData.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\AddComplainData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:54:24.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AddMaintenanceData.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddMaintenanceData.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\AddMaintenanceData.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddMaintenanceData.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\AddMaintenanceData.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:46:13.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ExpensesRecord.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Entity\\ExpensesRecord.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\ExpensesRecord.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Entity\\ExpensesRecord.cs",
+              "RelativeToolTip": "Models\\Entity\\ExpensesRecord.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:36:18.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Visiter.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Entity\\Visiter.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Visiter.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Entity\\Visiter.cs",
+              "RelativeToolTip": "Models\\Entity\\Visiter.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:40:14.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ExpensesMaster.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Entity\\ExpensesMaster.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\ExpensesMaster.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Entity\\ExpensesMaster.cs",
+              "RelativeToolTip": "Models\\Entity\\ExpensesMaster.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:36:15.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MaintenanceRecord.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Entity\\MaintenanceRecord.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\MaintenanceRecord.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Entity\\MaintenanceRecord.cs",
+              "RelativeToolTip": "Models\\Entity\\MaintenanceRecord.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:31:19.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T01:24:20.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ComplainType.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Entity\\ComplainType.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\ComplainType.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Entity\\ComplainType.cs",
+              "RelativeToolTip": "Models\\Entity\\ComplainType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:09:27.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AddExpensesData.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddExpensesData.cs",
+              "RelativeDocumentMoniker": "Models\\UserDataModels\\AddUserData\\AddExpensesData.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\UserDataModels\\AddUserData\\AddExpensesData.cs",
+              "RelativeToolTip": "Models\\UserDataModels\\AddUserData\\AddExpensesData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:02:16.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ComplainMaster.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Entity\\ComplainMaster.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\ComplainMaster.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Entity\\ComplainMaster.cs",
+              "RelativeToolTip": "Models\\Entity\\ComplainMaster.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:09:28.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AgendaController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\AgendaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgendaController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\AgendaController.cs",
+              "RelativeToolTip": "Controllers\\AgendaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T23:33:31.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CommitteMemberController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\CommitteMemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommitteMemberController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\CommitteMemberController.cs",
+              "RelativeToolTip": "Controllers\\CommitteMemberController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:40:12.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SocietyMeetingController.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Controllers\\SocietyMeetingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SocietyMeetingController.cs",
+              "ToolTip": "D:\\SocioSphere\\Controllers\\SocietyMeetingController.cs",
+              "RelativeToolTip": "Controllers\\SocietyMeetingController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAgwK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:35:20.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SociosphereContext.cs",
+              "DocumentMoniker": "D:\\SocioSphere\\Models\\Entity\\SociosphereContext.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\SociosphereContext.cs",
+              "ToolTip": "D:\\SocioSphere\\Models\\Entity\\SociosphereContext.cs",
+              "RelativeToolTip": "Models\\Entity\\SociosphereContext.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIA+wDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:34:26.481Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
